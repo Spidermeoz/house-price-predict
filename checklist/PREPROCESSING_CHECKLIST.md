@@ -7,7 +7,6 @@
 - [X] Visualize Price distribution (histogram, log-transform check)
 - [X] Check correlation among numeric features
 - [X] Extract district and city from `Address`
-- [] Save initial summary to `reports/preprocessing_report.md`
 
 ## Data Cleaning
 - [X] Handle missing numeric columns (median imputation)
@@ -22,12 +21,12 @@
 - [X] Derive `District` and `City` from `Address`
 
 ## Encoding & Scaling
-- [ ] Encode categorical features (OneHotEncoder)
-- [ ] Scale numeric features (StandardScaler)
-- [ ] ColumnTransformer
-- [ ] Pipeline
-- [ ] Save feature metadata (`data/processed/feature_info.json`)
-- [ ] Save preprocessor.pkl
+- [X] Encode categorical features (OneHotEncoder)
+- [X] Scale numeric features (StandardScaler)
+- [X] ColumnTransformer
+- [X] Pipeline
+- [X] Save feature metadata (`data/processed/feature_info.json`)
+- [X] Save preprocessor.pkl
 
 ## Data Splitting
 - [ ] Split dataset into Train/Val/Test (70/15/15)
