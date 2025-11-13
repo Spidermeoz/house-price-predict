@@ -29,13 +29,13 @@
 - [X] Save preprocessor.pkl
 
 ## Data Splitting
-- [ ] Split dataset into Train/Val/Test (70/15/15)
-- [ ] Save processed files under `data/processed/`
-- [ ] Verify distribution of target `Price` between splits
-- [ ] Save `preprocessor.pkl` pipeline
+- [X] Split dataset into Train/Val/Test (70/15/15)
+- [X] Save processed files under `data/processed/`
+- [X] Verify distribution of target `Price` between splits
+- [X] Save `preprocessor.pkl` pipeline
 
 ## Quality Validation
-- [ ] Ensure no NaN in processed data
-- [ ] Check numeric features are normalized (mean≈0, std≈1)
-- [ ] Ensure encoded categorical columns consistent across splits
-- [ ] Document all changes in `reports/preprocessing_report.md`
+- [X] Ensure no NaN in processed data
+- [X] Check numeric features are normalized (mean≈0, std≈1)
+- [X] Ensure encoded categorical columns consistent across splits
+- [X] Document all changes in `reports/preprocessing_report.md`
