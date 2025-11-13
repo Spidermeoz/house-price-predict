@@ -7,14 +7,14 @@
 - [X] Visualize Price distribution (histogram, log-transform check)
 - [X] Check correlation among numeric features
 - [X] Extract district and city from `Address`
-- [X] Save initial summary to `reports/preprocessing_report.md`
+- [] Save initial summary to `reports/preprocessing_report.md`
 
 ## Data Cleaning
-- [ ] Handle missing numeric columns (median imputation)
-- [ ] Handle missing categorical columns (most_frequent/“Unknown”)
-- [ ] Standardize text fields (lowercase, strip)
-- [ ] Remove or cap extreme outliers in `Price` and `Area`
-- [ ] Convert units (e.g., Price in billions VND)
+- [X] Handle missing numeric columns (median imputation)
+- [X] Handle missing categorical columns (most_frequent/“Unknown”)
+- [X] Standardize text fields (lowercase, strip)
+- [X] Remove or cap extreme outliers in `Price` and `Area`
+- [X] Convert units (e.g., Price in billions VND)
 
 ## Feature Engineering
 - [ ] Create `Price_per_m2 = Price / Area`
