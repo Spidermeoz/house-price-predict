@@ -17,12 +17,17 @@
 - [X] Convert units (e.g., Price in billions VND)
 
 ## Feature Engineering
-- [ ] Create `Price_per_m2 = Price / Area`
-- [ ] Create `Rooms = Bedrooms + Bathrooms`
-- [ ] Derive `District` and `City` from `Address`
+- [X] Create `Price_per_m2 = Price / Area`
+- [X] Create `Rooms = Bedrooms + Bathrooms`
+- [X] Derive `District` and `City` from `Address`
+
+## Encoding & Scaling
 - [ ] Encode categorical features (OneHotEncoder)
 - [ ] Scale numeric features (StandardScaler)
+- [ ] ColumnTransformer
+- [ ] Pipeline
 - [ ] Save feature metadata (`data/processed/feature_info.json`)
+- [ ] Save preprocessor.pkl
 
 ## Data Splitting
 - [ ] Split dataset into Train/Val/Test (70/15/15)
