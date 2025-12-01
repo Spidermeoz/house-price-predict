@@ -157,27 +157,27 @@
 
 ## D. Model Comparison & Selection
 
-- [ ] D1. Tạo bảng so sánh Regression models:
-  - [ ] Baseline vs Linear vs Ridge vs Lasso vs KNN vs Decision Tree
-  - [ ] Ghi lại: RMSE, MAE, R² (Val & Test)
-- [ ] D2. Tạo bảng so sánh Classification models:
-  - [ ] Naive Bayes vs KNN vs Decision Tree
-  - [ ] Ghi lại: Accuracy, Precision, Recall, F1 (Val & Test)
-- [ ] D3. Chọn:
-  - [ ] Best Regression model
-  - [ ] Best Classification model
-- [ ] D4. Lưu:
-  - [ ] `models/best_regressor.pkl`
-  - [ ] `models/best_classifier.pkl`
+- [X] D1. Tạo bảng so sánh Regression models:
+  - [X] Baseline vs Linear vs Ridge vs Lasso vs KNN vs Decision Tree
+  - [X] Ghi lại: RMSE, MAE, R² (Val & Test)
+- [X] D2. Tạo bảng so sánh Classification models:
+  - [X] Naive Bayes vs KNN vs Decision Tree
+  - [X] Ghi lại: Accuracy, Precision, Recall, F1 (Val & Test)
+- [X] D3. Chọn:
+  - [X] Best Regression model
+  - [X] Best Classification model
+- [X] D4. Lưu:
+  - [X] `models/best_regressor.pkl`
+  - [X] `models/best_classifier.pkl`
 
 ---
 
 ## E. Cross-Validation & Xác thực mô hình
 
-- [ ] E1. Áp dụng k-fold (k=5 hoặc 10) cho mô hình tốt nhất
-- [ ] E2. Ghi lại:
-  - [ ] Mean & std của metric qua các fold
-- [ ] E3. Giải thích ý nghĩa của Cross-Validation trong báo cáo
+- [X] E1. Áp dụng k-fold (k=5 hoặc 10) cho mô hình tốt nhất
+- [X] E2. Ghi lại:
+  - [X] Mean & std của metric qua các fold
+- [X] E3. Giải thích ý nghĩa của Cross-Validation trong báo cáo
 
 ---
 
